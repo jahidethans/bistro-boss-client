@@ -1,0 +1,25 @@
+/* Featured.css */
+.featured-item {
+  position: relative;
+}
+
+.featured-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity for darkness */
+  z-index: 10; /* Ensure the overlay is behind other content */
+}
+
+.featured-item .z-30 {
+  /* Adjust the z-index to place SectionTitles above the overlay */
+  position: relative;
+  z-index: 20;
+}
+
+.featured-item {
+  background-image: url('../../../assets/home/featured.jpg');
+}

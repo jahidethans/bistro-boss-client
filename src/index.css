@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Create a CSS file e.g., Scrollbar.css */
+/* Customize scrollbar track */
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Change the scrollbar track color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D99904; /* Change the scrollbar thumb color */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #D99999; /* Change the scrollbar thumb color on hover */
+}
